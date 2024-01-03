@@ -1,0 +1,203 @@
+/**
+* ! Changing default styles of the browser
+**/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+/**
+* ! Navbar Style are here
+**/
+.navbar{
+    display: flex;
+    justify-content: right;
+    padding: 20px 40px;
+    gap:20px;
+    font-size: 15px;
+}
+
+
+.navbar a {
+    color: rgb(85, 77, 77); /* 超連結的預設顏色 */
+    text-decoration: none; /* 移除文字底線 */
+    font-weight: 50;
+  }
+  
+.navbar a:hover {
+    text-decoration: underline; /* 滑鼠懸停時出現文字底線 */
+  }
+
+
+
+/**
+* ! search items styles are here
+**/
+/* 更具體的選擇器，以確保優先應用這些樣式 */
+@media (max-width: 1000px) {
+    .search .searchInput {
+      width: 90%; /* 調整為您需要的百分比 */
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .search .searchInput {
+      width: 90%; /* 調整為您需要的百分比 */
+    }
+  }
+
+.search{
+    margin-top: 100px;
+    text-align:center;
+    
+    
+}
+
+.search img{
+    margin-bottom: 20px;
+    position: relative; /* 設定相對定位的容器 */
+
+}
+
+.searchInput{
+    width: 100%; /* 100% 寬度，充滿其容器寬度 */
+    max-width: 570px; /* 最大寬度，不超過570px */
+    min-width: 200px; /* 最小寬度，不低於200px */
+    
+    height: 40px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    padding: 2px 48px;
+    font-size: medium;   
+}
+
+
+
+
+.searchInput:hover {
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+}
+
+
+.searchInput:focus {
+    outline: none;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+   
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+}
+
+
+.bi-search{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 20px;
+    font-size: 15px;
+    color: gray;
+
+}
+
+.button{
+    display: flex;
+    margin-top: 35px;
+    justify-content: center;
+    gap: 12px;
+    
+
+
+}
+
+.button input {
+    background-color: #f8f9fa;
+    border: none;
+    padding: 10px 20px;
+     font-size: 13px;
+     color: rgb(85, 77, 77);
+     border-radius: 4px;
+     
+}
+
+.button input:hover {
+    cursor: pointer;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+    
+}
+
+
+/**
+* ! search images page logo-image
+**/
+
+.T8VaVe {
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: absolute;
+
+    margin-top:75px;
+    margin-left: -56px;
+  
+}
+
+
+
+/**
+* ! search advanced page navbar
+**/
+
+.navbar2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    gap:20px;
+    font-size: 15px;
+}
+
+.navbar2 img{
+    width: 74px;
+    height: 24px;
+}
+
+
+.navbar2 a {
+    color: rgb(85, 77, 77); /* 超連結的預設顏色 */
+    text-decoration: none; /* 移除文字底線 */
+    font-weight: 50;
+  }
+  
+.navbar2 a:hover {
+    text-decoration: underline; /* 滑鼠懸停時出現文字底線 */
+  }
+
+
+.line {
+    border-bottom: 1px solid #ebebeb;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.box{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 60px;
+    column-gap: 10px;
+}
+
+.box .box-middle{
+    left:50px;
+}
+
+.first{
+   margin-left: 35px;
+}
+
+
+
+

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+        <link rel="stylesheet" href="src/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    </head>
+    <body>
+        
+        <div class="navbar2">
+            <a href="index.html">
+            <img src="images/googlelogo.png" href="index.html">
+            </a>
+            
+            <a href="index.html">Google Search</a>
+        </div>
+        
+        <div class="appbar">
+            <p>Advanced Search</p>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="first">
+            <span>Find pages with...</span>
+            <span>To do this in the search box.</span>
+        </div>
+
+        <div class="searchbox">
+
+            <div class="box">
+                <div class="box-left">
+                    <div class="box-left-p">
+                        <label>all these words:</label>
+                    </div>
+                </div>
+
+                <div class="box-middle">
+                    <form id="formA" action="https://www.google.com/search">
+                      <input type="text" autofocus="autofocus" id="box-a">
+                    </form>
+                  </div>
+
+                <div class="box-right">
+                    <p>Type the important words: golden retriever</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-left">
+                    <div class="box-left-p">
+                        <label>this exact word or phrase:</label>
+                    </div>
+                </div>
+
+                <div class="box-middle">
+                    <form id="formB" action="https://www.google.com/search">
+                      <input type="text" autofocus="autofocus" id="box-b">
+                    </form>
+                  </div>
+
+                <div class="box-right">
+                    <p>Put exact words in quotes: golden retriever</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-left">
+                    <div class="box-left-p">
+                        <label>any of these words:</label>
+                    </div>
+                </div>
+
+                <div class="box-middle">
+                    <form id="formC" action="https://www.google.com/search">
+                      <input type="text" autofocus="autofocus" id="box-c">
+                    </form>
+                  </div>
+
+                <div class="box-right">
+                    <p>Type OR between all the words you want: miniature OR standard</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-left">
+                    <div class="box-left-p">
+                        <label>none of these words:</label>
+                    </div>
+                </div>
+
+                <div class="box-middle">
+                    <form id="formD" action="https://www.google.com/search">
+                      <input type="text" autofocus="autofocus" id="box-d">
+                    </form>
+                  </div>
+
+                <div class="box-right">
+                    <p>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </body>
+    <script src="src/AdvancedSearch.js"></script>
+  
+</html>
